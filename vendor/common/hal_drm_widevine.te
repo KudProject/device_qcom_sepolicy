@@ -27,7 +27,6 @@
 
 # define SELinux domain
 type hal_drm_widevine, domain;
-typeattribute hal_drm_widevine data_between_core_and_vendor_violators;
 hal_server_domain(hal_drm_widevine, hal_drm)
 
 type hal_drm_widevine_exec, exec_type, vendor_file_type, file_type;
